@@ -180,7 +180,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: #e4e4e4;
     padding: 0 80px;
 }
 
@@ -221,7 +221,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: #e4e4e4;
     padding: 0 80px;
 }
 
@@ -256,18 +256,17 @@
     font-size: 15px;
 }
 
-
 /* SHOP CSS */
 #product1 {
     text-align: center;
-    background-color: #131313;
+    background-color: #e4e4e4;
     padding: 80px 80px;
     margin: -48px 0px;
 }
 
 #product1 h2 {
     font-weight: bold;
-    color: white;
+    color: #000;
 }
 #product1 p {
     color: #e42024;
@@ -275,7 +274,7 @@
 }
 
 #product1 .pro-container {
-    background-color: #131313;
+    background-color: #e4e4e4;
     display: flex;
     justify-content: space-between;
     padding-top: 5px;
@@ -285,8 +284,8 @@
     width: 23%;
     min-width: 250px;
     padding:10px 12px;
-    border: 1px solid #272727;
-    background-color: black;
+    border: 1px solid #e2dcdc;
+    background-color: #f3efef;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgb(0, 0, 0,0.02);
@@ -309,13 +308,13 @@
 }
 
 #product1 .pro .des span {
-    color: #fff;
+    color: #000;
     font-size: 14px;
 }
 
 #product1 .pro .des h5 {
     padding-top: 7px;
-    color: #fff;
+    color: #000;
     font-size: 14px;
 } 
 
@@ -337,10 +336,10 @@
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
-    background-color: black;
+    background-color: #c4c4c4;
     font-weight: 500;
     color: #fff;
-    border: 1px solid #4a4d4a;
+    border: 1px solid #c4c4c4;
     position: absolute;
     bottom: 20px;
     right: 20px;
