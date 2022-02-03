@@ -1,27 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');;
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lora', serif;
 }
 
 .navbar {
-    background-color: #131313;
+    background-color: #E3E6F3;
     padding: 1rem 8rem;
     z-index: 1000;
+    box-shadow: 0 5px 15px rgb(0, 0, 0,0.15);
 }
 
 .navbar .navbar-brand {
     font-size: 1.4rem;
     font-weight: 700;
+    color: #131313;
 }
 
 #navbarSupportedContent > ul > li:nth-child(n) > a {
-    color: #fff;
+    color: #131313;
     font-size: 1.1rem;
     padding: 0 1rem;
+    font-weight: 600;
 }
 
 #navbarSupportedContent > ul > li:nth-child(n) > a:hover,
@@ -30,17 +33,19 @@
 }
 
 .mid {
-    width: 100%;
+    background-image: url("img/hero.jpg");
     height: 100vh;
-    overflow: hidden;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-content: center;
-    text-align: center;
 }
 
-.mid video {
+/* .mid video {
     width: 100%;
     height: 100%;
     pointer-events: none;
@@ -49,15 +54,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* padding-top: 75px; */
-}
+    padding-top: 75px; */
 
+    
 .mid .hero {
     position: relative;
 }
 
 .mid .hero h2 {
     font-weight: 700;
+    color: #131313;
 }
 
 .mid .hero h2 span {
@@ -65,6 +71,7 @@
 }
 
 .mid .hero p {
+    color: #131313;
     width: 55%;
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
@@ -73,23 +80,23 @@
 
 .mid .hero a {   
     font-weight: 600;
-    color: #131313;
-    background: #fff;
+    color: #fff;
+    background: #131313;
     padding: 0.6rem 2rem;
     border-radius: 30px;
     text-decoration: none;
 }
 
 .mid .hero a:hover {
-    background: #131313;
+    background: #fff;
     font-weight: 600;    
-    color: #fff;
+    color: #131313;
 }
 
 
     /* ABOUT CSS  */
 .about {
-    background-color: black;
+    background-color: #f2c4ce;
 }
 
 .about .about-child {
@@ -114,13 +121,13 @@
 }
 
 .about .text h2 {
-    color: #fff;
+    color: #131313;
     font-size: 2.7rem;
     font-weight: 700;
 }
 
 .about .text p {
-    color: #fff;
+    color: #131313;
     font-size: 1.1rem;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -128,8 +135,8 @@
 
 .about .text a {
     font-weight: 600;
-    color: #131313;
-    background: #fff;
+    color: #fff;
+    background: #131313;
     padding: 0.6rem 2rem;
     border-radius: 30px;
     text-decoration: none;
@@ -141,9 +148,14 @@
     color: #E42024;
 }
 
+.about img {
+    margin-left: 90px;
+    height: 65vh;
+}
+
 .collection .heading h2 {
     font-weight: bold;
-    color: white;
+    color: #131313;
 }
 
 .collection .heading h2 span {
@@ -153,24 +165,28 @@
 .collection .one h5 {
     padding-top: 20px;
     font-weight: bold;
-    color: #fff;
+    color: #131313;
 }
 
 .collection .one p {
-    color: #fff;
+    color: #131313;
 }
 
 .collection {
-    background-color: black;
+    background-color: #f2c4ce;
 }
 
 .collection .collection-child {
-    background-color: black;
+    background-color: #f2c4ce;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 2rem 0 4rem 0;
+}
+
+.collection .coll-image {
+    border-radius: 20px;
 }
 
 
@@ -180,7 +196,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #e4e4e4;
+    background-color: #f2c4ce;
     padding: 0 80px;
 }
 
@@ -221,7 +237,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #e4e4e4;
+    background-color: #f2c4ce;
     padding: 0 80px;
 }
 
@@ -259,7 +275,7 @@
 /* SHOP CSS */
 #product1 {
     text-align: center;
-    background-color: #e4e4e4;
+    background-color: #f2c4ce;
     padding: 80px 80px;
     margin: -48px 0px;
 }
@@ -274,7 +290,7 @@
 }
 
 #product1 .pro-container {
-    background-color: #e4e4e4;
+    background-color: #f2c4ce;
     display: flex;
     justify-content: space-between;
     padding-top: 5px;
@@ -350,7 +366,7 @@ body > footer {
 } 
 
 footer .footer-copyright {
-    background: #111!important;
+    background: black!important;
 }
 
 footer i {
