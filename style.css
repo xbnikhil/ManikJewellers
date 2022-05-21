@@ -33,7 +33,7 @@
 }
 
 .mid {
-    background-image: url("img/hero.jpg");
+/*     background-image: url("img/hero.jpg"); */
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -45,7 +45,7 @@
     justify-content: center;
 }
 
-/* .mid video {
+    video {
     width: 100%;
     height: 100%;
     pointer-events: none;
@@ -54,8 +54,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-top: 75px; */
-
+    padding-top: 75px;
+}
     
 .mid .hero {
     position: relative;
